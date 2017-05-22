@@ -1,7 +1,7 @@
 var jasmineReporters = require('jasmine-reporters');
 exports.config = {
   framework: 'jasmine',
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+  seleniumAddress: 'http://0.0.0.0:4444/wd/hub',
   jasmineNodeOpts:{
 		  grep : ''
   },

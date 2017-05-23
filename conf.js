@@ -15,7 +15,7 @@ exports.config = {
 
   specs:['testSpec.js'],
 
-   onPrepare: function() {
+  /* onPrepare: function() {
 	  var fs = require('fs-extra');
 
 		fs.emptyDirSync('reports/', function (err) {
@@ -42,7 +42,7 @@ exports.config = {
 						});
 					}
 				}
-			});
+			});*/
 
       jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
 			consolidateAll: true,

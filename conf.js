@@ -42,7 +42,7 @@ exports.config = {
 						});
 					}
 				}
-			});*/
+			});
 
       jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
 			consolidateAll: true,
@@ -71,5 +71,5 @@ exports.config = {
         };
         new HTMLReport().from('./reports/xmlresults.xml', testConfig);
     });
- }
+ }*/
 }

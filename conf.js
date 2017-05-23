@@ -5,6 +5,7 @@ exports.config = {
   jasmineNodeOpts:{
 		  grep : ''
   },
+	directConnect: true,
   capabilities:{
         'browserName': 'chrome',
 	  'chromeOptions': {

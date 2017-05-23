@@ -13,7 +13,7 @@ exports.config = {
      },
     },
 
-  specs:['testspec.js'],
+  specs:['testSpec.js'],
 
    onPrepare: function() {
 	  var fs = require('fs-extra');

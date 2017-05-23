@@ -6,7 +6,10 @@ exports.config = {
 		  grep : ''
   },
   capabilities:{
-        'browserName': 'chrome'
+        'browserName': 'chrome',
+	  'chromeOptions': {
+         'args': ['no-sandbox']
+     },
     },
 
   specs:['testspec.js'],

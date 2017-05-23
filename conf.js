@@ -1,10 +1,5 @@
-var jasmineReporters = require('jasmine-reporters');
 exports.config = {
-  framework: 'jasmine',
-  jasmineNodeOpts:{
-		  grep : ''
-  },
-	directConnect: true,
+ 	directConnect: true,
   capabilities:{
         'browserName': 'chrome',
 	  'chromeOptions': {
@@ -13,4 +8,4 @@ exports.config = {
     },
 
   specs:['testSpec.js'],
-}
+};
